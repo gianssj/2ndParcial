@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/registro.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <title>Registro</title>
+    
+</head>
+<body>
+    <form action="registro.php" class="Formulario-Registro" id="formulario">
+        <h4>Registro</h4>
+
+        <p class="Parrafos">Correo Electronico</p>    <input type="email" class="Controles" id="email" name="email"  >
+        <p class="Parrafos">Nombre de Usuario</p>     <input type="text" class="Controles" id="usuario" name="usuarioo" placeholder="Tu usuario " >
+        <p class="Parrafos">Contraseña</p>            <input type="password" class="Controles" id="contra" name="contra" >
+        <p class="Parrafos">Repita la contraseña</p>  <input type="password" class="Controles" id="contra2" name="contra2">
+                                                      <a href="SingIn.html-">  <input class="Botones" type="submit" name="submit" value="Registrarse" onclick="alerta()" > </a> 
+                                                     
+        <p class="Uparrafo">
+            <a href="SingIn.html">Iniciar Sesión</a>
+        </p>                                                
+    </form>
+</body>
+
+<Script src="JAVASCRIPT/registro.js"></Script>
+
+
+
+</html>

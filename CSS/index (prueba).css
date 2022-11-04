@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+body {
+
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.header {
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+  height: 100px;
+   padding: 30px 10%;
+   box-shadow: 7px 13px 37px  #000;
+}
+
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    padding-left: 10px;
+
+    
+}
+
+.header .logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+.header .logo img:hover{
+
+    transform: scale(1.2);
+    
+}
+
+.header .nav-links li {
+
+    display: inline-block;
+    padding: 40px;
+    margin-right: 70px;
+    
+    
+}
+.header .nav-links a{
+    font-size: 700;
+    color:  #0404B4;
+    text-decoration: none;font-size: 15px;
+    
+}
+.header .nav-links li:hover{
+    transform: scale(1.2);
+}
+.header .nav-links a:hover{
+    color: #cc5333;
+}
+
+.header .botton button {
+   
+    font-size: 15px;
+    font-weight:500;
+    color: white;
+    padding: 8px 10px;
+    background-color: #cc5333;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0;
+    margin: 10px;
+    
+} 
+.header .botton button:hover{
+    transform: scale(1.2);
+}
+
+.header .logo img:nth-child(1){
+    padding: 0 50px 0 0;
+}
+
+.header .botton {
+    padding: 10px;
+}

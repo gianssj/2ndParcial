@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background: #0f0c29; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    padding-top: 150px;
+    
+}
+.Formulario-Registro {
+    
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+    border-radius: 15px ;
+    font-family: "calibri";
+    box-shadow: 7px 13px 37px  #000;
+    
+}
+.Formulario-Registro h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.Controles{
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: solid 1px grey; 
+}
+
+.Formulario-Registro .Uparrafo{
+    font-size: 14px;
+    text-align: center;
+
+ }
+
+.Parrafos {
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.Formulario-Registro a {
+     color: #0404B4;
+     
+}
+
+.Formulario-Registro .Botones {
+
+    width: 100%;
+    background-color: #9a4933;
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+    margin: 20px 0;
+    color: white;
+    cursor: pointer;
+    
+   
+}
+
+.Formulario-Registro .Botones:hover{
+    transform: scale(1.05);
+}

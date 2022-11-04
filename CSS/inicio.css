@@ -1,0 +1,191 @@
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+
+    text-align: center;
+    font-family: sans-serif;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 7px 13px 37px  #000;
+}
+
+.navbar{
+
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+
+    margin-left: 30px;
+}
+
+.logo a{
+
+    text-decoration: none;
+    color: #171717;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+
+    display: block;
+    padding: 23px 20px;
+    color: #171717;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+
+    background: #5d579b; /* fallback for old browsers */
+    transform: scale(1.02)
+   
+}
+
+.header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+
+    height: 60vh !important;
+    background: url() no-repeat center;
+    background-size: cover;
+}
+
+.title{
+
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.title2{
+margin-top: 200px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+p {
+
+    padding: 0 100px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn {
+        
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #9a4933;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background: solid;
+    transform: scale(1.05);
+}
+
+.btn-home {
+
+    display: flex;
+
+}
+
+.btn-home a{
+
+    margin: 0px 10px;
+}
+
+.content{
+
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.sau{
+
+    padding: 50px;
+    background: #1f1d1d;
+}
+
+
+
+
+.logo img{
+    transition:all 0.3s ;
+    cursor: pointer;
+}
+.logo img:hover{
+    transform:scale(1.2) ;
+ 
+}
+
+.about {
+
+    background: #171717;
+}
+
+
+
+@media (max-width: 768px){
+
+    .title{
+
+        margin-bottom: 0;
+        font-size: 40px;
+
+    }
+    .sau{
+
+        height: 120vh;
+    }
+    .navbar{
+
+        display: none;
+    }
+}
